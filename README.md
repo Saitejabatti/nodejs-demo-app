@@ -1,16 +1,10 @@
 \# Node.js Demo App – CI/CD Pipeline 🚀
 
-
-
 This is a simple Node.js web app built with Express, Dockerized, and deployed using a GitHub Actions CI/CD pipeline.
-
-
 
 \## 👨‍💻 Developer
 
 \*\*Batti Sai Teja\*\* – DevOps Intern at Elevete Labs
-
-
 
 \## 🔧 Tech Stack
 
@@ -23,8 +17,6 @@ This is a simple Node.js web app built with Express, Dockerized, and deployed us
 \- GitHub Actions
 
 \- DockerHub
-
-
 
 \## 🛠️ Features
 
@@ -40,21 +32,15 @@ This is a simple Node.js web app built with Express, Dockerized, and deployed us
 
 &nbsp; - Push to DockerHub
 
-
-
 \## 🔁 CI/CD Pipeline Flow
 
-```yaml
-
-push to main → GitHub Actions → test → build → Docker image → push to DockerHub
-
-
+push to main → GitHub actions → test → build → Docker image → push to DockerHub
 
 📦 DockerHub Image
 https://hub.docker.com/repository/docker/YOUR\_USERNAME/nodejs-demo-app
 
-
 🚀 Run Locally (without Docker)
+
 git clone https://github.com/YOUR\_USERNAME/nodejs-demo-app.git
 
 cd nodejs-demo-app
@@ -71,7 +57,15 @@ docker run -p 3000:3000 YOUR\_USERNAME/nodejs-demo-app
 ✅ Output
 
 Visit http://localhost:3000 to see:
+
 🚀 Hello from Node.js Demo App!
+
+
+
+
+
+
+
 
 
 
