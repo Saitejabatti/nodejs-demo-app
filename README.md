@@ -37,11 +37,11 @@ This is a simple Node.js web app built with Express, Dockerized, and deployed us
 push to main → GitHub actions → test → build → Docker image → push to DockerHub
 
 📦 DockerHub Image
-https://hub.docker.com/repository/docker/YOUR\_USERNAME/nodejs-demo-app
+https://hub.docker.com/repository/docker/saitejabatti/nodejs-demo-app
 
 🚀 Run Locally (without Docker)
 
-git clone https://github.com/YOUR\_USERNAME/nodejs-demo-app.git
+git clone https://github.com/Saitejabatti/nodejs-demo-app.git
 
 cd nodejs-demo-app
 
